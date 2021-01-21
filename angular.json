@@ -25,7 +25,9 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/firebase-messaging-sw.js",
+              "src/firebase-fe.js"
             ],
             "styles": [
               "src/styles.scss"
@@ -124,5 +126,8 @@
       }
     }
   },
-  "defaultProject": "ndbxaposin"
+  "defaultProject": "ndbxaposin",
+  "cli": {
+    "analytics": false
+  }
 }
